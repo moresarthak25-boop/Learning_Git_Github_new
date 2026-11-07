@@ -1,0 +1,12 @@
+name: main branch push auroo trigger pipeline
+
+on:
+  push:
+    branches:
+      -main
+
+jobs:
+  say-hello-inline-bash:
+    runs-on: windows-2025
+    steps:
+      - run: echo "this pipeline will automatically get triggered" 

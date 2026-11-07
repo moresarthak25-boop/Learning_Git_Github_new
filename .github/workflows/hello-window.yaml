@@ -7,4 +7,4 @@ jobs:
   say-hello-inline-bash:
     runs-on: windows-2025
     steps:
-      - run: echo "hello students this first hello world linux github action"
+      - run: echo "hello students this first hello world linux github action" 
