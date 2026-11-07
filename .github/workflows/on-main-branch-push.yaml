@@ -3,10 +3,12 @@ name: main branch push auto trigger pipeline
 on:
   push:
     branches:
-      -main
+      - main
 
 jobs:
   say-hello-inline-bash:
-    runs-on: windows-2025
+    runs-on: windows-latest
+
     steps:
-      - run: echo "this pipeline will automatically get triggerd" 
+      - name: Print Message
+        run: echo "this pipeline will automatically get triggered"
