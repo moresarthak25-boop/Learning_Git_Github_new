@@ -22,4 +22,4 @@ jobs:
       - job-1
       - job-2
     steps:
-      - run: echo "This job will trigger only after job1 and job2 succeed."
+      - run: echo "This job will trigger only after job1 and job2 succeed."b
